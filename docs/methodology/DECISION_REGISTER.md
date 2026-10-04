@@ -19,3 +19,13 @@
 - Expanding versus rolling estimation
 - Bootstrap design
 - Practical-equivalence threshold
+
+## Decided
+
+- Primary model-development sample: January 2006 to December 2014
+- Common development sample for headline and core CPI
+- Final forecast origins: December 2014 to August 2024
+- 117 complete forecast vintages through the 24-month horizon
+- Expanding-window coefficient estimation
+- SARIMA orders selected once and fixed during final evaluation
+- Post-December 2014 observations excluded from model development
