@@ -29,3 +29,26 @@
 - Expanding-window coefficient estimation
 - SARIMA orders selected once and fixed during final evaluation
 - Post-December 2014 observations excluded from model development
+- SARIMA specification search uses only January 2006 to December 2014.
+- Model form: SARIMA(p,0,q)(P,0,Q,12) with a constant.
+- Candidate orders: p,q in {0,1,2}; P,Q in {0,1}.
+- Complexity restriction: p + q + P + Q <= 4.
+- Model selection hierarchy:
+  1. successful and numerically valid estimation;
+  2. competitive AICc and BIC;
+  3. adequate residual diagnostics;
+  4. internal time-series cross-validation as a selection aid;
+  5. parsimony when competing models perform similarly.
+- Internal cross-validation is part of model development and is not treated
+  as an unbiased estimate of final out-of-sample performance.
+  
+  - Headline residual diagnostics showed significant remaining dependence near
+  annual lags. The leading D=0 model also estimated seasonal AR and MA terms
+  close to opposing unit-boundary values.
+- A narrow D=1 headline specification check was therefore added during model
+  development. This is intended to test whether explicit seasonal differencing
+  provides a more stable representation than near-cancelling seasonal AR and
+  MA terms.
+- The D=1 amendment is limited to four predeclared specifications. No wider
+  search will be conducted unless all four fail for a clearly documented
+  technical reason.
