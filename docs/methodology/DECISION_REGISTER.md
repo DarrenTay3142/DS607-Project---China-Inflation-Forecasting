@@ -41,7 +41,7 @@
   5. parsimony when competing models perform similarly.
 - Internal cross-validation is part of model development and is not treated
   as an unbiased estimate of final out-of-sample performance.
-  
+
   - Headline residual diagnostics showed significant remaining dependence near
   annual lags. The leading D=0 model also estimated seasonal AR and MA terms
   close to opposing unit-boundary values.
@@ -52,3 +52,15 @@
 - The D=1 amendment is limited to four predeclared specifications. No wider
   search will be conducted unless all four fail for a clearly documented
   technical reason.
+
+- Headline model development will include a CNY-aware SARIMAX extension.
+- The initial CNY specification uses fixed calendar-month indicators and one
+  fractional moving-holiday regressor.
+- The regressor allocates a predeclared 21-day CNY-affected window, from
+  10 days before through 10 days after Chinese New Year, across the Gregorian
+  months in which those days occur.
+- Future CNY regressors are treated as known calendar information rather than
+  forecast economic inputs.
+- The CNY-ignorant SARIMA will remain in the model ladder as a comparator.
+- More flexible pre-, during-, and post-holiday regressors will not be added
+  unless the one-regressor specification provides a documented
