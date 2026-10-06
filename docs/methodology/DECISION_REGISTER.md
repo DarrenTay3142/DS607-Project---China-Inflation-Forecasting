@@ -64,3 +64,13 @@
 - The CNY-ignorant SARIMA will remain in the model ladder as a comparator.
 - More flexible pre-, during-, and post-holiday regressors will not be added
   unless the one-regressor specification provides a documented
+
+  - The primary CNY-aware model uses two moving-holiday regressors.
+- The CNY pressure phase runs from 14 days before through 14 days after
+  Chinese New Year, inclusive.
+- The post-CNY normalisation phase runs from 15 through 28 days after
+  Chinese New Year, inclusive.
+- Each phase is allocated fractionally across the Gregorian months in which
+  its affected days fall.
+- Pressure and normalisation coefficients are estimated freely without sign
+  restrictions.
