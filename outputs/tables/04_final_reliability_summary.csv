@@ -1,0 +1,8 @@
+target,model,attempted_origins,successful_origins,failed_origins,success_rate,converged_origins,warning_origins,minimum_ar_root,minimum_ma_root
+Core,"Core ARMA(1,1) seasonal ARMA",117,109,8,0.9316,109,8,1.0009497459580525,1.010307636153049
+Core,Core MA(2) seasonal ARMA robustness,117,111,6,0.9487,111,6,1.0006053362593705,1.0084086630330273
+Core,Core operational benchmark,117,117,0,1.0000,,0,,
+Headline,CNY-aware seasonal AR robustness,117,117,0,1.0000,117,0,1.0887274653924504,1.7740068275364318
+Headline,CNY-aware seasonal MA,117,117,0,1.0000,117,0,1.0575073855440291,1.0011911932702453
+Headline,CNY-ignorant SARIMA,117,104,13,0.8889,104,12,1.0000225206852318,1.0026553127722582
+Headline,Headline operational benchmark,117,117,0,1.0000,,0,,

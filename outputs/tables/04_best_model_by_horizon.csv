@@ -1,0 +1,97 @@
+target,loss_function,horizon,best_model,forecast_count,loss_value
+Core,MAE,1,Core operational benchmark,104,0.1427
+Core,MAE,2,Core operational benchmark,104,0.1591
+Core,MAE,3,Core operational benchmark,104,0.1814
+Core,MAE,4,Core operational benchmark,104,0.2095
+Core,MAE,5,Core operational benchmark,104,0.2360
+Core,MAE,6,"Core ARMA(1,1) seasonal ARMA",104,0.2620
+Core,MAE,7,"Core ARMA(1,1) seasonal ARMA",104,0.2985
+Core,MAE,8,"Core ARMA(1,1) seasonal ARMA",104,0.3427
+Core,MAE,9,"Core ARMA(1,1) seasonal ARMA",104,0.3653
+Core,MAE,10,"Core ARMA(1,1) seasonal ARMA",104,0.4024
+Core,MAE,11,"Core ARMA(1,1) seasonal ARMA",104,0.4093
+Core,MAE,12,"Core ARMA(1,1) seasonal ARMA",104,0.4342
+Core,MAE,13,"Core ARMA(1,1) seasonal ARMA",104,0.4359
+Core,MAE,14,"Core ARMA(1,1) seasonal ARMA",104,0.4647
+Core,MAE,15,"Core ARMA(1,1) seasonal ARMA",104,0.4703
+Core,MAE,16,"Core ARMA(1,1) seasonal ARMA",104,0.4725
+Core,MAE,17,"Core ARMA(1,1) seasonal ARMA",104,0.4807
+Core,MAE,18,"Core ARMA(1,1) seasonal ARMA",104,0.4826
+Core,MAE,19,"Core ARMA(1,1) seasonal ARMA",104,0.4876
+Core,MAE,20,"Core ARMA(1,1) seasonal ARMA",104,0.4937
+Core,MAE,21,"Core ARMA(1,1) seasonal ARMA",104,0.5119
+Core,MAE,22,"Core ARMA(1,1) seasonal ARMA",104,0.5145
+Core,MAE,23,"Core ARMA(1,1) seasonal ARMA",104,0.5115
+Core,MAE,24,"Core ARMA(1,1) seasonal ARMA",104,0.5193
+Core,RMSE,1,Core operational benchmark,104,0.1887
+Core,RMSE,2,Core operational benchmark,104,0.2037
+Core,RMSE,3,Core operational benchmark,104,0.2287
+Core,RMSE,4,Core operational benchmark,104,0.2598
+Core,RMSE,5,Core operational benchmark,104,0.2885
+Core,RMSE,6,"Core ARMA(1,1) seasonal ARMA",104,0.3239
+Core,RMSE,7,"Core ARMA(1,1) seasonal ARMA",104,0.3679
+Core,RMSE,8,"Core ARMA(1,1) seasonal ARMA",104,0.4176
+Core,RMSE,9,"Core ARMA(1,1) seasonal ARMA",104,0.4520
+Core,RMSE,10,"Core ARMA(1,1) seasonal ARMA",104,0.4907
+Core,RMSE,11,"Core ARMA(1,1) seasonal ARMA",104,0.5083
+Core,RMSE,12,"Core ARMA(1,1) seasonal ARMA",104,0.5522
+Core,RMSE,13,"Core ARMA(1,1) seasonal ARMA",104,0.5544
+Core,RMSE,14,"Core ARMA(1,1) seasonal ARMA",104,0.5789
+Core,RMSE,15,"Core ARMA(1,1) seasonal ARMA",104,0.5869
+Core,RMSE,16,"Core ARMA(1,1) seasonal ARMA",104,0.5925
+Core,RMSE,17,"Core ARMA(1,1) seasonal ARMA",104,0.5940
+Core,RMSE,18,"Core ARMA(1,1) seasonal ARMA",104,0.6093
+Core,RMSE,19,"Core ARMA(1,1) seasonal ARMA",104,0.6114
+Core,RMSE,20,"Core ARMA(1,1) seasonal ARMA",104,0.6002
+Core,RMSE,21,"Core ARMA(1,1) seasonal ARMA",104,0.6143
+Core,RMSE,22,"Core ARMA(1,1) seasonal ARMA",104,0.6046
+Core,RMSE,23,"Core ARMA(1,1) seasonal ARMA",104,0.5979
+Core,RMSE,24,"Core ARMA(1,1) seasonal ARMA",104,0.6177
+Headline,MAE,1,CNY-ignorant SARIMA,104,0.3050
+Headline,MAE,2,Headline operational benchmark,104,0.4458
+Headline,MAE,3,Headline operational benchmark,104,0.5547
+Headline,MAE,4,Headline operational benchmark,104,0.6206
+Headline,MAE,5,Headline operational benchmark,104,0.7228
+Headline,MAE,6,Headline operational benchmark,104,0.7894
+Headline,MAE,7,Headline operational benchmark,104,0.8611
+Headline,MAE,8,Headline operational benchmark,104,0.9320
+Headline,MAE,9,Headline operational benchmark,104,0.9896
+Headline,MAE,10,Headline operational benchmark,104,1.0374
+Headline,MAE,11,Headline operational benchmark,104,1.0804
+Headline,MAE,12,Headline operational benchmark,104,1.1108
+Headline,MAE,13,Headline operational benchmark,104,1.0907
+Headline,MAE,14,Headline operational benchmark,104,1.1122
+Headline,MAE,15,Headline operational benchmark,104,1.0881
+Headline,MAE,16,Headline operational benchmark,104,1.0824
+Headline,MAE,17,Headline operational benchmark,104,1.1061
+Headline,MAE,18,Headline operational benchmark,104,1.1108
+Headline,MAE,19,Headline operational benchmark,104,1.0963
+Headline,MAE,20,Headline operational benchmark,104,1.0826
+Headline,MAE,21,Headline operational benchmark,104,1.0801
+Headline,MAE,22,Headline operational benchmark,104,1.0822
+Headline,MAE,23,Headline operational benchmark,104,1.1092
+Headline,MAE,24,Headline operational benchmark,104,1.1189
+Headline,RMSE,1,CNY-aware seasonal AR robustness,104,0.3818
+Headline,RMSE,2,Headline operational benchmark,104,0.5828
+Headline,RMSE,3,Headline operational benchmark,104,0.7123
+Headline,RMSE,4,Headline operational benchmark,104,0.8120
+Headline,RMSE,5,Headline operational benchmark,104,0.9242
+Headline,RMSE,6,Headline operational benchmark,104,0.9951
+Headline,RMSE,7,Headline operational benchmark,104,1.0858
+Headline,RMSE,8,Headline operational benchmark,104,1.1752
+Headline,RMSE,9,Headline operational benchmark,104,1.2579
+Headline,RMSE,10,Headline operational benchmark,104,1.3136
+Headline,RMSE,11,Headline operational benchmark,104,1.3533
+Headline,RMSE,12,Headline operational benchmark,104,1.3891
+Headline,RMSE,13,Headline operational benchmark,104,1.3594
+Headline,RMSE,14,Headline operational benchmark,104,1.3870
+Headline,RMSE,15,Headline operational benchmark,104,1.3558
+Headline,RMSE,16,Headline operational benchmark,104,1.3389
+Headline,RMSE,17,Headline operational benchmark,104,1.3666
+Headline,RMSE,18,Headline operational benchmark,104,1.3698
+Headline,RMSE,19,Headline operational benchmark,104,1.3493
+Headline,RMSE,20,Headline operational benchmark,104,1.3427
+Headline,RMSE,21,Headline operational benchmark,104,1.3527
+Headline,RMSE,22,Headline operational benchmark,104,1.3636
+Headline,RMSE,23,Headline operational benchmark,104,1.3872
+Headline,RMSE,24,Headline operational benchmark,104,1.4033

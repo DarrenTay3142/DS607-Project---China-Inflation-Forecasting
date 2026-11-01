@@ -1,0 +1,8 @@
+target,role,model,order,seasonal_order,deterministic_terms,development_status,selection_reason
+Headline,Operational benchmark,Five-year recursive same-calendar-month average,,,Five-year same-month average,Locked,Development-stage headline leader beyond the shortest horizons; no numerical fitting failures
+Headline,Conventional challenger,CNY-ignorant SARIMA,"(1, 0, 1)","(1, 0, 1, 12)",Intercept,Locked comparator,"Retained as the conventional seasonal comparison, despite weaker internal reliability"
+Headline,Primary CNY-aware challenger,CNY-aware seasonal-MA SARIMAX,"(1, 0, 1)","(0, 0, 1, 12)",Intercept; month indicators; CNY pressure; CNY normalisation,Locked,"Competitive information criteria, residual adequacy, complete internal reliability, and stronger medium- to long-horizon performance among CNY-aware models"
+Headline,CNY-aware robustness model,CNY-aware seasonal-AR SARIMAX,"(1, 0, 1)","(1, 0, 0, 12)",Intercept; month indicators; CNY pressure; CNY normalisation,Locked robustness model,Retained for more comfortable root separation from the stationarity and invertibility boundaries
+Core,Operational benchmark,Five-year recursive same-calendar-month average,,,Five-year same-month average,Locked,Transparent short-horizon reference with no numerical fitting failures
+Core,Primary statistical model,"Core ARMA(1,1) seasonal ARMA","(1, 0, 1)","(1, 0, 1, 12)",Intercept,Locked,"Lowest internal MAE and RMSE at highlighted horizons 1, 3, 6, and 12"
+Core,Reliability robustness model,Core MA(2) seasonal ARMA,"(0, 0, 2)","(1, 0, 1, 12)",Intercept,Locked robustness model,Generated valid forecasts at all internal development origins

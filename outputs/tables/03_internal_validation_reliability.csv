@@ -1,0 +1,7 @@
+target,model,attempted_origins,successful_origins,failed_origins,success_rate
+Core,Core AR(2) seasonal ARMA,25,23,2,0.9200
+Core,"Core ARMA(1,1) seasonal ARMA",25,24,1,0.9600
+Core,Core MA(2) seasonal ARMA,25,25,0,1.0000
+Headline,CNY-aware seasonal AR,25,25,0,1.0000
+Headline,CNY-aware seasonal MA,25,25,0,1.0000
+Headline,CNY-ignorant SARIMA,25,23,2,0.9200

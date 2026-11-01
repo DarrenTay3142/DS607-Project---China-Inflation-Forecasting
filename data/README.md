@@ -1,3 +1,12 @@
-# Data instructions
+# Raw Data Instructions
 
-Place the unchanged licensed CEIC extract in `data/raw/`. Raw and interim files are excluded from Git. Document CEIC series IDs, units, source, coverage, extraction date, and transformations. Do not publish processed observations until licensing permits have been checked.
+The `data/raw/` directory is reserved for source data that cannot be distributed through the public project repository.
+
+## Licensed CEIC extract
+
+The mainland China CPI data used in this project are obtained from **CEIC Data through the Singapore Management University Libraries subscription**.
+
+An authorised SMU user must obtain the required series and save the local extract at:
+
+```text
+data/raw/china_cpi.csv

@@ -1,0 +1,16 @@
+target,model,horizon,forecast_count,mean_error,mae,rmse
+Core,Core operational benchmark,1,104,0.0148,0.1427,0.1887
+Core,Core MA(2) seasonal ARMA robustness,1,104,0.0318,0.1472,0.1969
+Core,"Core ARMA(1,1) seasonal ARMA",1,104,0.0344,0.1488,0.1991
+Core,Core operational benchmark,3,104,-0.0276,0.1814,0.2287
+Core,"Core ARMA(1,1) seasonal ARMA",3,104,0.0259,0.1961,0.2473
+Core,Core MA(2) seasonal ARMA robustness,3,104,0.0177,0.2031,0.2504
+Core,"Core ARMA(1,1) seasonal ARMA",6,104,-0.0144,0.2620,0.3239
+Core,Core operational benchmark,6,104,-0.1161,0.2703,0.3384
+Core,Core MA(2) seasonal ARMA robustness,6,104,-0.0318,0.2837,0.3453
+Core,"Core ARMA(1,1) seasonal ARMA",12,104,-0.0783,0.4342,0.5522
+Core,Core operational benchmark,12,104,-0.2587,0.4675,0.5906
+Core,Core MA(2) seasonal ARMA robustness,12,104,-0.1111,0.5051,0.6114
+Core,"Core ARMA(1,1) seasonal ARMA",24,104,-0.0909,0.5193,0.6177
+Core,Core operational benchmark,24,104,-0.2197,0.5470,0.6472
+Core,Core MA(2) seasonal ARMA robustness,24,104,-0.1171,0.5661,0.6644

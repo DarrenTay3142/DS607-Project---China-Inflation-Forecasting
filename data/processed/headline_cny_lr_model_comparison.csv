@@ -1,0 +1,3 @@
+model,month_indicators,cny_pressure,cny_normalisation,parameters,log_likelihood,aic,bic,converged
+Restricted,Yes,No,No,16,-30.59487313818755,93.1897462763751,136.10384591036262,True
+Unrestricted,Yes,Yes,Yes,18,-16.10223360183099,68.20446720366198,116.48282929189793,True

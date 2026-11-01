@@ -1,0 +1,21 @@
+target,model,horizon,forecast_count,mean_error,mae,rmse
+Headline,CNY-aware seasonal AR robustness,1,104,-0.0715,0.3112,0.3818
+Headline,CNY-ignorant SARIMA,1,104,-0.0489,0.3050,0.4029
+Headline,Headline operational benchmark,1,104,-0.0531,0.3053,0.4048
+Headline,CNY-aware seasonal MA,1,104,-0.0942,0.3364,0.4114
+Headline,Headline operational benchmark,3,104,-0.1704,0.5547,0.7123
+Headline,CNY-ignorant SARIMA,3,104,-0.1776,0.5800,0.7470
+Headline,CNY-aware seasonal AR robustness,3,104,-0.2895,0.6189,0.8012
+Headline,CNY-aware seasonal MA,3,104,-0.3670,0.6941,0.8869
+Headline,Headline operational benchmark,6,104,-0.2807,0.7894,0.9951
+Headline,CNY-ignorant SARIMA,6,104,-0.3458,0.8297,1.0616
+Headline,CNY-aware seasonal AR robustness,6,104,-0.6096,1.0260,1.2749
+Headline,CNY-aware seasonal MA,6,104,-0.7937,1.2445,1.5017
+Headline,Headline operational benchmark,12,104,-0.5037,1.1108,1.3891
+Headline,CNY-ignorant SARIMA,12,104,-0.7572,1.1757,1.5355
+Headline,CNY-aware seasonal AR robustness,12,104,-1.3259,1.5706,1.8215
+Headline,CNY-aware seasonal MA,12,104,-1.7768,1.9626,2.1712
+Headline,Headline operational benchmark,24,104,-0.5439,1.1189,1.4033
+Headline,CNY-ignorant SARIMA,24,104,-1.0556,1.3623,1.6045
+Headline,CNY-aware seasonal AR robustness,24,104,-1.2455,1.4821,1.7076
+Headline,CNY-aware seasonal MA,24,104,-1.4995,1.6717,1.8670
