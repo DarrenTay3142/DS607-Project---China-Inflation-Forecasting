@@ -462,14 +462,14 @@ outputs/presentation/DS607 GP 01084382 slides.pptx
 - [x] The repository states that this is individual MDSE course work completed with instructor approval.
 - [x] The final presentation PDF is present.
 - [x] The repository was reviewed successfully in its remote GitHub form before the final presentation files were added.
-- [ ] The final presentation files have been checked in the remote GitHub repository after the presentation commit.
+- [x] The final presentation files have been checked in the remote GitHub repository after the presentation commit.
 - [x] Markdown tables and equations render correctly on GitHub.
 - [x] All repository links work.
 - [x] No licensed data appear in the remote repository.
 - [x] No credentials or local paths appear in the remote repository.
-- [ ] The final commit has a descriptive message.
-- [ ] The repository and presentation have been submitted through the required eLearn location.
-- [ ] A personal portfolio entry will be completed after submission and will identify the work as individual course work.
+- [x] The final commit has a descriptive message.
+- [x] The repository and presentation have been submitted through the required eLearn location.
+- [x] A personal portfolio entry will be completed after submission and will identify the work as individual course work.
 
 ---
 
