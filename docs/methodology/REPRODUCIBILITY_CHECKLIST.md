@@ -444,13 +444,13 @@ outputs/figures/05_cny_coefficient_estimates.png
 - [x] The presentation PDF is stored at:
 
 ```text
-outputs/presentation/DS607 GP 01084382 slides.pdf
+outputs/presentation/DS607_GP_01084382_slides.pdf
 ```
 
 - [x] The editable PowerPoint is stored at:
 
 ```text
-outputs/presentation/DS607 GP 01084382 slides.pptx
+outputs/presentation/DS607_GP_01084382_slides.pptx
 ```
 
 ---
