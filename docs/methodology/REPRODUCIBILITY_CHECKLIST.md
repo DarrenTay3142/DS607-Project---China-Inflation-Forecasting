@@ -426,40 +426,47 @@ outputs/figures/05_cny_coefficient_estimates.png
 
 # 16. Presentation checks
 
-- [ ] The presentation is approximately 8–10 minutes.
-- [ ] The presentation states the research question.
-- [ ] The presentation identifies the licensed CEIC data source.
-- [ ] The presentation explains the operational benchmark.
-- [ ] The presentation summarises the development and final-evaluation separation.
-- [ ] The presentation includes the principal headline result.
-- [ ] The presentation includes the principal core result.
-- [ ] The presentation includes the likelihood-ratio result.
-- [ ] The presentation distinguishes explanatory fit from forecasting performance.
-- [ ] The presentation reports fitting reliability.
-- [ ] The presentation includes the main limitations.
-- [ ] The presentation provides a practical takeaway.
-- [ ] The presenter can explain the modelling choices without reading from the slides.
-- [ ] The presenter can explain stationarity, invertibility, roots, nuisance parameters, and the LR-test caveat.
-- [ ] The slide deck has been exported to PDF.
-- [ ] The presentation PDF is stored at:
+- [x] The presentation is approximately 8–10 minutes.
+- [x] The presentation states the research question.
+- [x] The presentation identifies the licensed CEIC data source.
+- [x] The presentation explains the operational benchmark.
+- [x] The presentation summarises the development and final-evaluation separation.
+- [x] The presentation includes the principal headline result.
+- [x] The presentation includes the principal core result.
+- [x] The presentation includes the likelihood-ratio result.
+- [x] The presentation distinguishes explanatory fit from forecasting performance.
+- [x] The presentation reports fitting reliability.
+- [x] The presentation includes the main limitations.
+- [x] The presentation provides a practical takeaway.
+- [x] The presenter can explain the modelling choices without reading from the slides.
+- [x] The presenter can explain stationarity, invertibility, roots, nuisance parameters, and the LR-test caveat.
+- [x] The slide deck has been exported to PDF.
+- [x] The presentation PDF is stored at:
 
 ```text
 outputs/presentation/DS607 GP 01084382 slides.pdf
+```
+
+- [x] The editable PowerPoint is stored at:
+
+```text
+outputs/presentation/DS607 GP 01084382 slides.pptx
 ```
 
 ---
 
 # 17. Final repository and submission audit
 
-- [ ] The GitHub repository URL is ready.
+- [x] The GitHub repository URL is ready.
 - [x] The student author is listed correctly.
 - [x] The repository states that this is individual MDSE course work completed with instructor approval.
-- [ ] The final presentation PDF is present.
-- [ ] The repository has been reviewed in its remote GitHub form.
-- [ ] Markdown tables and equations render correctly on GitHub.
-- [ ] All repository links work.
-- [ ] No licensed data appear in the remote repository.
-- [ ] No credentials or local paths appear in the remote repository.
+- [x] The final presentation PDF is present.
+- [x] The repository was reviewed successfully in its remote GitHub form before the final presentation files were added.
+- [ ] The final presentation files have been checked in the remote GitHub repository after the presentation commit.
+- [x] Markdown tables and equations render correctly on GitHub.
+- [x] All repository links work.
+- [x] No licensed data appear in the remote repository.
+- [x] No credentials or local paths appear in the remote repository.
 - [ ] The final commit has a descriptive message.
 - [ ] The repository and presentation have been submitted through the required eLearn location.
 - [ ] A personal portfolio entry will be completed after submission and will identify the work as individual course work.
@@ -471,14 +478,14 @@ outputs/presentation/DS607 GP 01084382 slides.pdf
 ## Validation record
 
 ```text
-Final validation date: 31 October 2026
+Final validation date: 8 November 2026
 Python version: 3.14.7
 Environment file: requirements.txt
 Dependency validation: All pinned requirements satisfied
 Automated test result: 66 passed in 2.08s
 Notebook rerun result: All five notebooks completed successfully from clean kernels
 Licensed-data Git check: Passed; raw CEIC extract ignored and not tracked
-Presentation PDF check: TO COMPLETE
+Presentation PDF check: Passed; final PDF and editable PowerPoint stored under outputs/presentation/
 Final reviewer: Darren TAY Teck Yong
 ```
 
@@ -488,5 +495,5 @@ Final reviewer: Darren TAY Teck Yong
 - [x] I have run the complete automated test suite successfully.
 - [x] I have rerun and reviewed all submitted notebooks.
 - [x] I have verified that the repository does not expose licensed raw data or credentials.
-- [ ] I understand and can explain the statistical methods, results, and limitations.
-- [ ] I accept responsibility for the final repository and presentation.
+- [x] I understand and can explain the statistical methods, results, and limitations.
+- [x] I accept responsibility for the final repository and presentation.
